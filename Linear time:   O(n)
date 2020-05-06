@@ -1,1 +1,19 @@
+const kids = [
+  'Jordan';
+  'Jaden';
+  'Jerry';
+  'Jackson';
+  ];
+  
+  const findMatch = (kids, name) => {
+    for (let i = 0, t = kids.length; i < t; i++) {
+      if (kids[i] === name) {
+        return i;
+       }
+      }
+      
+     return -l;
+  };
+  
+  console.log(findMatch(kids, 'Jerry"))
 
