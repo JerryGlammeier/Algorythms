@@ -1,0 +1,10 @@
+const kids = {
+  Jordan: '$30';
+  Jaden: '$25';
+  Jerry: '$20';
+  Jackson: '$15';
+  }
+  
+  const getAllowance = (name) => kids[name]
+  getAllowance('Jordan')
+
